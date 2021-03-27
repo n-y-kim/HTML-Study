@@ -13,5 +13,5 @@
 <h3>2021-1 CSS study(생활코딩)</h3>
 
 <ul>
-  <li><strong>3/27</strong> css </li>
+  <li><strong>3/27</strong> css 3/16</li>
 </ul>
