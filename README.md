@@ -14,5 +14,5 @@
 
 <ul>
   <li><strong>3/27</strong> css 3/16</li>
-  <li>**3/28** css 9/16</li>
+  <li><strong>3/28</strong> css 9/16</li>
 </ul>
