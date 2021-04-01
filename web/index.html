@@ -13,63 +13,7 @@
     <meta charset="utf-8">
 
     <!-- css -->
-    <style>
-        /* <!-- selecter --> */
-        a {
-            color :rgb(105, 105, 105);
-            text-decoration: none;
-        }
-
-        .title {
-            color: rgb(193, 128, 255);
-        }
-
-        /* 점을 붙이면 클래스가 saw인 태그를 다 찾아준다. */
-
-        .category {
-            border-right:0.5px solid gray;
-            width: 80px;
-            margin: 0;
-            padding: 30px;
-            padding-left: 33px;
-        }
-
-        /* id값은 단 한번만 쓰는것 중복 불가능*/
-        /* #active{
-            color: red;
-        } */
-
-        h1{
-            font-size: 60px;
-            text-align: center;
-            border-bottom: 1px solid grey;
-            margin: 0;
-            padding: 20px;
-        }
-
-        #grid {
-            display: grid;
-            grid-template-columns: 150px 1fr;
-        }
-
-        #grid #contents {
-            padding: 20px;
-            padding-top: 10px;
-        }
-
-        @media(max-width:800px){
-            #grid{
-                display: block;
-            }
-            .category {
-                border-right: none;
-            }
-            h1 {
-                border-bottom: none;
-            }
-        }
-
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body style="margin: 20px;">
