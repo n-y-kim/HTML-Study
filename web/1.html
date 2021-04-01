@@ -11,25 +11,72 @@
     </script>
     <title>Projects</title>
     <meta charset="utf-8">
+
+    <style>
+        a {
+            /*color: blueviolet;*/
+            text-decoration: none;
+            color: rgb(105, 105, 105);
+        }
+
+        .title {
+            color: rgb(193, 128, 255);
+        }
+
+        .category {
+            border-right:0.5px solid gray;
+            width: 80px;
+            margin: 0;
+            padding: 30px;
+            padding-left: 33px;
+        }
+
+        h1{
+            font-size: 60px;
+            text-align: center;
+            border-bottom: 1px solid grey;
+            margin: 0;
+            padding: 20px;
+        }
+
+        #grid {
+            display: grid;
+            grid-template-columns: 150px 1fr;
+        }
+
+        #grid #contents {
+            padding: 20px;
+            padding-top: 10px;
+        }
+
+        ol {
+            padding-left: 30px;
+        }
+
+    </style>
 </head>
 
-<body>
-    <h1><a href="index.html">Nayeon Kim's Portfolio Web</a></h1>
-    <ul>
-        <li><a href="1.html">Projects</a></li>
-        <li><a href="2.html">Awards</a></li>
-        <li><a href="3.html">About Me</a></li>
-        <li><a href = "comments.html">Comments</a></li>
-    </ul>
+<body style="margin: 20px;">
+    <h1><a href="index.html" class="title">Nayeon Kim's Portfolio Web</a></h1>
+    
+    <div id = "grid">
+        <ul class = "category">
+            <li><a href="1.html">Projects</a></li>
+            <li><a href="2.html">Awards</a></li>
+            <li><a href="3.html">About Me</a></li>
+            <li><a href = "comments.html">Comments</a></li>
+        </ul>
     <!-- 부모태그 ul -->
     <!-- 부모태그 ol: Ordered List. ul: UnOrdered list -->
-
-    <h2>Projects</h2>
-    <ol>
-        <li><a href = "https://apps.apple.com/kr/app/%EC%9C%A0%EB%8B%88%EC%BA%98%EB%A6%B0%EB%8D%94/id1555101858" target="_blank">iOS Application 'UniCalendar'</a></li>
-        <li>Unity made game 'Cat Timer'</li>
-        <li>MBTI test made in HTMl, CSS, Javascript, React</li>
-    </ol>
+        <div id = "contents">
+            <h2>Projects</h2>
+            <ol>
+                <li><a href = "https://apps.apple.com/kr/app/%EC%9C%A0%EB%8B%88%EC%BA%98%EB%A6%B0%EB%8D%94/id1555101858" target="_blank">iOS Application 'UniCalendar'</a></li>
+                <li>Unity made game 'Cat Timer'</li>
+                <li>MBTI test made in HTMl, CSS, Javascript, React</li>
+            </ol>
+        </div>
+    </div>
     <!-- <img src="dog.jpg">
     <img src="tree.jpg"> -->
     <!--Start of Tawk.to Script-->
