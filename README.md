@@ -22,3 +22,7 @@
 <h3>🔥FINISHED!🔥</h3>
 <hr/>
 <h3>2021-1 JavaScript study(생활코딩)</h3>
+
+<ul>
+  <li><strong>04/02</strong> JavaScript 2/38</li>
+</ul>
